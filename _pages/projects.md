@@ -5,6 +5,7 @@ author_profile: true
 ---
 # Research
 1. [Fung Lab - Georgia Tech](research/fungLab.md)
+
 # Projects
 1. [TraverGo - 1st at Hacklytics - Traversaal AI Challenge)](projects/travergo)
 2. [Rocket Neural Network - GTXR](projects/gtxr)

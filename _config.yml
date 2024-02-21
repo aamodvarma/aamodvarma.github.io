@@ -21,7 +21,7 @@ repository               : "aamodvarma/aamodvarma.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profilepicture.jpeg"
   name             : "Aamod Varma"
   pronouns         : # example: "she/her"  
   bio              : "CS and Math"
