@@ -1,11 +1,12 @@
 ---
 permalink: /projects/
-title: 
+title: Projects
 author_profile: true
-redirect_from:
-  - /projects/
-  - /projects.html
 ---
 # Research
 <!-- [Fung Lab](research/fungLab.md) -->
 # Projects
+
+<!-- redirect_from: -->
+<!--   - /projects/ -->
+<!--   - /projects.html -->
