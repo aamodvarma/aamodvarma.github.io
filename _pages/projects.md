@@ -7,5 +7,5 @@ redirect_from:
   - /projects.html
 ---
 # Research
-[Fung Lab](research/fungLab.md)
+<!-- [Fung Lab](research/fungLab.md) -->
 # Projects
