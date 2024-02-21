@@ -1,6 +1,7 @@
 ---
 title: Rocket Neural Network
 author_profile: true
+permalink: /projects/gtxr
 ---
 {% include base_path %}
 
