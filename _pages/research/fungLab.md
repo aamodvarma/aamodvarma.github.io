@@ -1,6 +1,8 @@
 ---
-permalink: /projects/funglab
+permalink: /research/funglab
 title: Introduction
 author_profile: true
 ---
 {% include base_path %}
+
+elo

@@ -1,5 +1,4 @@
 ---
-permalink: /projects/gtxr
 title: Rocket Neural Network
 author_profile: true
 ---
@@ -22,7 +21,7 @@ To generate these samples I used latin hypercube sampling method which is a stat
 Through this method I was able to reduce the discrepancy of our set of values from 0.0008 for a set of 20k values to 0.0005. As well as down to 0.0002 for a set of 50k values. The discrepancy gives us an idea of the spacial filling aspects of our generated samples. Minimizing our this ensure that we cover the entire possible set of values within our set ensuring our neural network is properly able to learn from these values.
 
 ## Neural Network
-In this case we want a neural network to output 6 aerodynamic coefficients and center of pressure values from 17 values of rocket dimensions. For this purpose I used a feed forward network with 2 linear layers. 
+In this case we want a neural network to output 6 aerodynamic coefficients and center of pressure values from 16 values of rocket dimensions. For this purpose I used a feed forward network with 2 linear layers. 
 
 ![Model Architecture](/images/rnn_model.png)
 
