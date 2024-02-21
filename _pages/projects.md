@@ -1,11 +1,11 @@
 ---
-permalink: /
-title: Projects
+permalink: /projects/
+title: 
 author_profile: true
 redirect_from:
   - /projects/
   - /projects.html
 ---
 # Research
-[Fung Lab](/about)
+[Fung Lab](research/fungLab.md)
 # Projects
