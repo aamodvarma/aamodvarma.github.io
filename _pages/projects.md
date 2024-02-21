@@ -1,12 +1,16 @@
 ---
 permalink: /projects/
-title: Projects
+title: 
 author_profile: true
 ---
 # Research
-<!-- [Fung Lab](research/fungLab.md) -->
+1. [Fung Lab - Georgia Tech](research/fungLab.md)
 # Projects
+1. [TraverGo - 1st at Hacklytics - Traversaal AI Challenge)](projects/travergo)
+2. [Rocket Neural Network - GTXR](projects/gtxr)
+3. [Stock Analysis](projects/stockanalysis)
+4. [Istiophix - F1 in Schools - 1st in UAE - World Finalist](projects/istiophix)
+5. [ProjectTurtle](projects/projecturtle)
+6. [Book Management System](projects/pbms)
 
-<!-- redirect_from: -->
-<!--   - /projects/ -->
-<!--   - /projects.html -->
+

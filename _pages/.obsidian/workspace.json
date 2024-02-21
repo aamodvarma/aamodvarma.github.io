@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects.md",
+                "file": "research.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects.md",
+                "file": "research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects.md",
+                "file": "research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects.md"
+                "file": "research.md"
               }
             }
           }
@@ -148,14 +148,15 @@
   },
   "active": "9c1876f43283d785",
   "lastOpenFiles": [
-    "research.md",
+    "about.md",
+    "research/fungLab.md",
     "projects.md",
+    "research",
+    "research.md",
     "publications.md",
     "non-menu-page.md",
     "fungLab.md",
-    "research",
     "markdown.md",
-    "about.md",
     "archive-layout-with-content.md",
     "cv.md",
     "404.md"
