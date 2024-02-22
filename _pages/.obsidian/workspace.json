@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/travergo.md",
+                "file": "projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "977356b69143b971",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/stockanalysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/travergo.md",
+                "file": "projects/stockanalysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/travergo.md",
+                "file": "projects/stockanalysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/travergo.md"
+                "file": "projects/stockanalysis.md"
               }
             }
           }
@@ -146,18 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c1876f43283d785",
+  "active": "977356b69143b971",
   "lastOpenFiles": [
+    "projects.md",
     "projects/projecturtle.md",
-    "projects/stockanalysis.md",
-    "projects/travergo.md",
-    "projects/pbms.md",
     "projects/istiophix.md",
+    "projects/travergo.md",
+    "projects/stockanalysis.md",
+    "projects/pbms.md",
     "projects/gtxr.md",
     "Pasted image 20240221185339.png",
     "about.md",
     "research/fungLab.md",
-    "projects.md",
     "non-menu-page.md",
     "archive-layout-with-content.md",
     "projects",

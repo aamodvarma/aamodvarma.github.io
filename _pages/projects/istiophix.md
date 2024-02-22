@@ -19,13 +19,13 @@ I was the Manufacturing engineer, Simulations Engineer as well as the Graphic De
 
 
 
-   ## Simulations
-   The process of developing the car involved running CFD simulations and FEA analysis to identify which part of the car causes maximum drag so that we could iteratively reduce drag. In addition the FEA analysis helped in improving the structural rigidity and identify structural weakness in our car body.
+# Simulations
+The process of developing the car involved running CFD simulations and FEA analysis to identify which part of the car causes maximum drag so that we could iteratively reduce drag. In addition the FEA analysis helped in improving the structural rigidity and identify structural weakness in our car body.
 
 ![Simulations](/images/istiophix_simulations.png)
 
 
-### CFD Software Stages
+## CFD Software Stages
 **Preparing the CAD for CFD** 
 Using geometry tools, a built in module, we were able to merge all the "small" edges and remove all objects which were less than 10^-4mm in size. This minimizes the errors that we encounter during the meshing process. We then set the boundaries around the car and use the automatic meshing tool to form a rectangular mesh around the car.
  
@@ -65,7 +65,7 @@ Planes are used to visualize our analysis in a cross section of our mesh includi
 
 
 
-### FEA software stages
+## FEA software stages
 We used a static stress simulation within Autodesk Fusion 360 for our FEA analysis. First once we simplified the geometry of our model using the automatic tool, the we went into the Static Stress simulation tool.
 
 Here we first set up the initial constraints, these constraints are the parts that are static/fixed throughout the stress applied to the body.
@@ -82,8 +82,8 @@ However for the magnitude we could not pin point a specific value for which we w
 
 
 
-## Manufacturing Stage
-### CNC
+# Manufacturing Stage
+## CNC
 
 
 **Alignment of the tool in the direction of milling.**
@@ -129,8 +129,8 @@ Another important aspect was to ensure proper alignment of the model block withi
 
 Often our car models come out unsymmetrical, this is because of an error in the y axis offset, and this issue may cause misalignment of other components  
 
-### 3D Printing
-#### FDM
+## 3D Printing
+### FDM
 
 We had access to three FDM printers, one tier time upbox and two tier time upmini 2. Although we initally printed all our components in using FDM, we eventually switched to using SLA for the rearwing and hubcaps. Our FDM prints were strong but had bad surface finish.
 
@@ -144,7 +144,7 @@ Because of manufacturing defects, we had to calibrate our 3D printer by finding 
 
 
 In addition our prints were inconsistent between different arrangements of prints the dimensions of our bearing opening in our wheel varied depending on the number of wheels printed in a single print.
-#### SLA
+### SLA
 
 We bought our very own Elegoo Mars 2 Pro, an MSLA printer to print out components (rear wing and hub caps). SLA printers as they print  by hardening resin on a specific layer depend only on the height of the entire model compared to the amount  of the volume thus making it a very fast alternative to FDM for rapid prototyping.
 
