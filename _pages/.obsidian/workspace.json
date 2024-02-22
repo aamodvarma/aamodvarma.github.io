@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects.md",
+                "file": "projects/gtxr.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects.md",
+                "file": "projects/gtxr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects.md",
+                "file": "projects/gtxr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects.md"
+                "file": "projects/gtxr.md"
               }
             }
           }
@@ -161,16 +161,16 @@
   },
   "active": "977356b69143b971",
   "lastOpenFiles": [
-    "404.md",
-    "markdown.md",
-    "terms.md",
-    "projects.md",
+    "projects/istiophix.md",
     "projects/pbms.md",
     "projects/projecturtle.md",
     "projects/travergo.md",
     "projects/stockanalysis.md",
-    "projects/istiophix.md",
     "projects/gtxr.md",
+    "projects.md",
+    "404.md",
+    "markdown.md",
+    "terms.md",
     "Pasted image 20240221185339.png",
     "about.md",
     "research/fungLab.md",

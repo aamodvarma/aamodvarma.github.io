@@ -1,7 +1,7 @@
 ---
 title: Rocket Neural Network
 author_profile: true
-permalink: /projects/gtxr
+permalink: /projects/stockanalysis
 ---
 {% include base_path %}
 
