@@ -1,11 +1,10 @@
 ---
 permalink: /projects/
 author_profile: true
-title:
+title: Research
 ---
 
 
-# Research
 1. [Fung Lab - Georgia Tech](research/fungLab.md)
 
 # Projects
