@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "404.md",
+                "file": "projects.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "404.md",
+                "file": "projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "404.md",
+                "file": "projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "404.md"
+                "file": "projects.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "977356b69143b971",
   "lastOpenFiles": [
-    "markdown.md",
     "404.md",
+    "markdown.md",
     "terms.md",
     "projects.md",
     "projects/pbms.md",
