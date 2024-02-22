@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects.md",
+                "file": "404.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects.md",
+                "file": "404.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects.md",
+                "file": "404.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects.md"
+                "file": "404.md"
               }
             }
           }
@@ -161,11 +161,14 @@
   },
   "active": "977356b69143b971",
   "lastOpenFiles": [
+    "markdown.md",
+    "404.md",
+    "terms.md",
+    "projects.md",
     "projects/pbms.md",
     "projects/projecturtle.md",
     "projects/travergo.md",
     "projects/stockanalysis.md",
-    "projects.md",
     "projects/istiophix.md",
     "projects/gtxr.md",
     "Pasted image 20240221185339.png",
@@ -178,8 +181,6 @@
     "research",
     "publications.md",
     "fungLab.md",
-    "markdown.md",
-    "cv.md",
-    "404.md"
+    "cv.md"
   ]
 }
