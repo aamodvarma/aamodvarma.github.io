@@ -10,12 +10,12 @@ The goal of this project was to use monte carlo simulations to analyse the volat
 # Data
 First using the yahoo finance library in python I was able to mainly get access to the open and closing prices for each day from 1982 (around 15500 days).
 
-Given the closing prices for each day I was able to calculate the daily return by using the below formula where $c_n$ represents the closing price for a specific day, $c_{n-1}$ represents the closing price of the previous day and $R$ represents the daily return,
+Given the closing prices for each day I was able to calculate the daily return by using the below formula where \\(c_n\\) represents the closing price for a specific day, $c_{n-1}$ represents the closing price of the previous day and $R$ represents the daily return,
 
 $$DR = {c_n-c_{n-1} \over c_{n-1}} \times 100$$
 
 # Decay 
-In order to give more priority to recent stocks I employed exponential decay. Firstly the exponential weight $e_n$ of a specific day is calculated as follows,
+In order to give more priority to recent stocks I employed exponential decay. Firstly the exponential weight $e_n$ of a specific day is calculated as follows, 
 $$e_n = e_{n-1} \times x$$ where $x$ is the decay factor which ranges from 0 to 1. And considering $e_0$ is equal to 1.
 Or in other words,
 $$e_n = x^n$$
