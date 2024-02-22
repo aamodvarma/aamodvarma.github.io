@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research/fungLab.md",
+                "file": "projects/travergo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "research/fungLab.md",
+                "file": "projects/travergo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "research/fungLab.md",
+                "file": "projects/travergo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "research/fungLab.md"
+                "file": "projects/travergo.md"
               }
             }
           }
@@ -148,18 +148,19 @@
   },
   "active": "9c1876f43283d785",
   "lastOpenFiles": [
-    "projects/gtxr.md",
-    "projects/istiophix.md",
-    "research/fungLab.md",
-    "projects/pbms.md",
-    "projects.md",
-    "non-menu-page.md",
-    "archive-layout-with-content.md",
     "projects/projecturtle.md",
     "projects/stockanalysis.md",
     "projects/travergo.md",
-    "projects",
+    "projects/pbms.md",
+    "projects/istiophix.md",
+    "projects/gtxr.md",
+    "Pasted image 20240221185339.png",
     "about.md",
+    "research/fungLab.md",
+    "projects.md",
+    "non-menu-page.md",
+    "archive-layout-with-content.md",
+    "projects",
     "research.md",
     "research",
     "publications.md",
