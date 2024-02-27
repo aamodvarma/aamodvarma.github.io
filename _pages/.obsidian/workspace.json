@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a91975e117c144a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "977356b69143b971",
+  "active": "8a91975e117c144a",
   "lastOpenFiles": [
     "projects.md",
     "projects/pbms.md",
