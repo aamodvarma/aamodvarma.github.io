@@ -1,15 +1,13 @@
 ---
-title: TraverGo
+title: Harnessing the Power of Ares API for Real-Time Insights in TraverGo’s Chatbot
 author_profile: true
 permalink: /projects/travergo_article
 ---
 {% include base_path %}
 
-# Harnessing the Power of Ares API for Real-Time Insights in TraverGo's Chatbot
-
 TraverGo is the 1st place winning hackalytics project at Georgia Tech project for the Traversaal AI challenge. TraverGo's hotel search platform is an innovative way to help users find the perfect accommodations. Our platform offers powerful features like Neural Search and Sentiment Analysis to help users find their perfect hotel. One of its standout features is the seamless integration of a chatbot with the Ares API, ensuring users can get both hotel-specific answers and access real-time information about the surrounding area.  Let's dive into how this integration works.
 
-## Why the Ares API?
+# Why the Ares API?
 
 While your chatbot has a solid knowledge base of hotel descriptions and reviews, there will be times when a user's query goes beyond those confines. The Ares API acts as a powerful bridge between our chatbot and the vast knowledge base of Google. For instance some questions that a chatbot might find hard to answer are based on:
 
@@ -19,7 +17,7 @@ While your chatbot has a solid knowledge base of hotel descriptions and reviews,
 
 These types of questions fall outside the scope of our hotel-specific dataset.  Ares API allows us to tap into Google's real-time data, providing accurate and up-to-date answers for our users.
 
-## Implementation Logic
+# Implementation Logic
 The following will be our flow of logic in dealing with a specific user question. 
 1. Dependency: We start by importing the ares library, granting us access to the Ares API.
 
@@ -31,9 +29,9 @@ The following will be our flow of logic in dealing with a specific user question
 
 5. Chatbot Response: Our chatbot delivers the formatted Ares API results to the user.
 
-## Integrating the Ares API into our chatbot
+# Integrating the Ares API into our chatbot
 
-**Setting up the API**
+## Setting up the API
 To get started, you'll need:
 
 1. Ares API Key: Sign up with the Ares API provider to get your API key.
@@ -73,7 +71,7 @@ def ares_api(query):
 ```
 
 
-**Delegation of tasks**
+## Delegation of tasks
 To ensure that we only delegate the relevent user question to the Ares API when we are unable to find the answer within our text corpus we use another decoder model which will tell us if the specific answer to the user question already exists within our code. To implement this we use the following function `canAnswer()`
 ```python
 def canAnswer(description, q):
@@ -100,7 +98,7 @@ def canAnswer(description, q):
 `canAnswer`: This function leverages OpenAI's language models to intelligently determine if a question can be answered confidently based on a given description.
 
 
-**Chatbot Integration**
+## Chatbot Integration
 This is the main integration of the Ares API with our chatbot. After initializing streamlit session states, we first append the hotel description to the message history of our chatbot as follows. We also include the relevent prompt to get the chatbot ready to answer our questions.
 ```python
 
