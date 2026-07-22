@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+  const t = localStorage.getItem("theme");
+  if (t) document.documentElement.dataset.theme = t;
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aamod — Research</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Aamod</h1>
+<button id="theme-toggle" onclick="
+  const r = document.documentElement;
+  const cur = r.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  r.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', r.dataset.theme);
+"> ◐ </button>
+
+<nav>
+  <a href="index.html">about</a> ·
+  <a href="research.html">research</a> ·
+  <a href="contact.html">contact</a> ·
+  <a href="misc.html">misc</a>
+</nav>
+
+<h2>Current Work</h2>
+
+<div class="entry">
+  <p><strong>Convergence of gradient-EM for Gaussian-gated mixtures of experts.</strong>
+  Extending the Balakrishnan–Wainwright–Yu framework to gated mixture models,
+  with local convergence guarantees under separation conditions.</p>
+  <p class="meta">In progress</p>
+</div>
+
+<div class="entry">
+  <p><strong>Synthetic equilibrium structures for diffusion pretraining of
+  equivariant GNNs.</strong> Evaluating three generation strategies,
+  perturb-and-relax, generative models, and protostructure enumeration, for
+  pretraining on molecular and crystal property prediction.</p>
+  <p class="meta">In preparation</p>
+</div>
+
+<h2>Published Work</h2>
+
+<div class="entry">
+  <p><strong>Benchmarking Text Representations for Crystal Structure Generation with Large Language Models</strong><br>
+  Shuyi Jia, <u>Aamod Varma</u>, Pranav Manivannan, Dhruva Chayapathy, Victor Fung</p>
+  <p class="summary">Benchmarks </p>
+  <p class="meta">ICLR 2025 Workshop AI4MAT· <a href="https://openreview.net/pdf?id=w1JsxPYWLL">pdf</a> · <a href="#">code</a></p>
+</div>
+<div class="entry">
+  <p><strong>Scalable Continual Learning: Adaptive MoEs for Expanding Task Sets</strong><br>
+  Adrian Candocia, Omer Mustafa Inan, Raaghav Agarwal, <u>Aamod Varma</u>, Mark A. Davenport</p>
+  <p class="summary">Grows the number of experts adaptively as new tasks enter the stream.</p>
+  <p class="meta">SLLM Workshop, ICLR 2025 · <a href="https://openreview.net/pdf?id=SETimX2VbX">pdf</a></p>
+</div>
+
+<h2>Coursework</h2>
+
+<b>Mathematics</b>
+<ul>
+  <li>Real Analysis</li>
+  <li>Complex Analysis</li>
+  <li>Probability Theory</li>
+  <li>Combinatorics</li>
+  <!-- <li>Measure Theory <span class="meta">(graduate)</span></li> -->
+  <!-- <li>Differential Topology <span class="meta">(graduate)</span></li> -->
+</ul>
+
+<b>Computer Science</b>
+<ul>
+  <li>Machine Learning</li>
+  <li>Deep Learning</li>
+  <li>Algorithms</li>
+  <li>Compiler Design</li>
+  <li>Operating Systems</li>
+</ul>
+<footer>© Aamod</footer>
+
+</body>
+</html>

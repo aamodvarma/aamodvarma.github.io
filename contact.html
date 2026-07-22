@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+  const t = localStorage.getItem("theme");
+  if (t) document.documentElement.dataset.theme = t;
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aamod — Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Aamod</h1>
+<button id="theme-toggle" onclick="
+  const r = document.documentElement;
+  const cur = r.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  r.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', r.dataset.theme);
+"> ◐ </button>
+
+<nav>
+  <a href="index.html">about</a> ·
+  <a href="research.html">research</a> ·
+  <a href="contact.html">contact</a> ·
+  <a href="misc.html">misc</a>
+</nav>
+
+<h2>Contact</h2>
+
+<p>The fastest way to reach me is by email. I'm happy to talk about research,
+reading recommendations, or anything in between.</p>
+
+<ul>
+  <li><strong>Email</strong> — aamodvarma@{gatech.edu,gmail.com}
+  <li><strong>GitHub</strong> — <a href="https://github.com/aamodvarma">github.com/aamodvarma</a></li>
+  <li><strong>LinkedIn</strong> — <a href="https://www.linkedin.com/in/aamodvarma/">linkedin.com/in/aamodvarma</a></li>
+  <li><strong>Google Scholar</strong> — <a href="https://scholar.google.com/citations?user=nLyJie8AAAAJ&hl=en">scholar profile</a></li>
+  <li><strong>CV</strong> — <a href="#">pdf</a></li>
+</ul>
+
+<footer>© Aamod</footer>
+
+</body>
+</html>

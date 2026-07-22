@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+  const t = localStorage.getItem("theme");
+  if (t) document.documentElement.dataset.theme = t;
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aamod — Research</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Aamod</h1>
+<button id="theme-toggle" onclick="
+  const r = document.documentElement;
+  const cur = r.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  r.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', r.dataset.theme);
+"> ◐ </button>
+
+<nav>
+  <a href="index.html">about</a> ·
+  <a href="research.html">research</a> ·
+  <a href="contact.html">contact</a> ·
+  <a href="misc.html">misc</a>
+</nav>
+
+<h2>hobbies</h2>
+
+<ul> 
+  <li>music</li>
+  <li>reading</li>
+  <li>linux</li>
+  <li>bouldering</li>
+</ul>
+
+
+<h2>books</h2>
+
+
+</body>
+</html>

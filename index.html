@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+  const t = localStorage.getItem("theme");
+  if (t) document.documentElement.dataset.theme = t;
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aamod — About</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Aamod</h1>
+<button id="theme-toggle" onclick="
+  const r = document.documentElement;
+  const cur = r.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  r.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('theme', r.dataset.theme);
+"> ◐ </button>
+
+<nav>
+  <a href="index.html">about</a> ·
+  <a href="research.html">research</a> ·
+  <a href="contact.html">contact</a> ·
+  <a href="misc.html">misc</a>
+</nav>
+
+
+<!-- <img class="portrait" src="assets/me.jpg" alt="Photo of Aamod"> -->
+
+<h2>About</h2>
+
+<p>I'm a fourth-year undergraduate at Georgia Tech studying mathematics and computer science. </p>
+
+<p>
+  <strong>Research.</strong> I'm interested in the mathematical foundations of machine learning — convergence guarantees, optimization landscapes, and statistical learning theory. Currently I'm working on convergence analysis for gradient-EM in Gaussian-gated mixture-of-experts models, and on diffusion-based pretraining of equivariant graph networks for crystal structures in <a href="https://www.fung-group.org/">Dr. Victor Fung's lab</a>. More on the <a href="research.html">research page</a>.
+</p>
+
+<p>
+  <strong>Industry.</strong> I spent three semesters (1 Spring + 2 Summers) at PRGX as an AI intern, building end-to-end machine learning pipelines, specifically for contract insights and document processing.
+</p>
+
+<p>
+      <strong>Everything else.</strong> Outside of research I boulder, read, listen to music, and spend more time than is reasonable configuring my window manager. More on the <a href="misc.html">misc page</a>.
+</p>
+
+<footer>© Aamod</footer>
+
+</body>
+
+</html>
